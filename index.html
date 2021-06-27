@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Venus Template</title>
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/splide.min.css" integrity="sha256-EqzwzekQXKNbB5EE4nNBQT+2gWQIWRZQXAd89YdIq8M=" crossorigin="anonymous">
     <link rel="stylesheet" href="dist/css/style.css">
     <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js" integrity="sha256-SmCcbf/1ehhlBnw3ZGinNu6fjQV471LDBjc4yMMJhsk=" crossorigin="anonymous"></script>
 </head>
 <body class="is-boxed has-animations">
     <div class="body-wrap boxed-container">
@@ -127,10 +129,39 @@
 								</div>
 								<div class="feature-extended-body is-revealing">
 									<h3 class="mt-0 mb-16">SEO Hacks</h3>
-									<p class="m-0">There is a legitimate company called Best Bees. They actually do work on bee keeping and those services. It appears as if BestBeesAgency is trying to leverage the inherent SEO of that company to obfuscate information about the BestBees Agency.</p>
+									<p class="m-0">There is a legitimate company called Best Bees. They actually do work on bee keeping and those services. It appears as if <a href="https://www.indeed.com/cmp/Bestbees-Agency-LLC">BestBeesAgency</a> is trying to leverage the inherent SEO of that company to obfuscate information about the BestBees Agency.</p>
 									<p class="m-0">Be careful. Research. Search again and watch the signs.</p>
 								</div>
 							</div>
+
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-03.svg" alt="iPhone Feature 03 illustration">
+									</div>
+									<img class="device-mockup is-revealing" src="dist/images/iphone-feature-03.png" alt="iPhone Feature 03">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Possibly <a href="https://www.google.com/search?output=search&sclient=psy-ab&q=bestbees%20agency&=&=&oq=&gs_l=&pbx=1#lrd=0x883b576c34380345:0x13195019340c4cde,1,,," target="_blank">Manufactured Hype</a></h3>
+									
+									<div class="splide">
+										<div class="splide__track">
+											<ul class="splide__list">
+												<li class="splide__slide"><img src="dist/images/01-bestbees-agency-possible-fake-review.png"></li>
+												<li class="splide__slide"><img src="dist/images/02-bestbees-agency-possible-fake-review.png"></li>
+												<li class="splide__slide"><img src="dist/images/03-bestbees-agency-possible-fake-review.png"></li>
+												<li class="splide__slide"><img src="dist/images/04-bestbees-agency-possible-fake-review.png"></li>
+												<li class="splide__slide"><img src="dist/images/05-bestbees-agency-possible-fake-review.png"></li>
+												<li class="splide__slide"><img src="dist/images/06-bestbees-agency-possible-fake-review.png"></li>
+												<li class="splide__slide"><img src="dist/images/07-bestbees-agency-possible-fake-review.png"></li>
+											</ul>
+										</div>
+									</div>
+
+									<p class="m-0">These reviews were pulled directly from their Google reviews and saved here for safe keeping. Imagine if Apple made a number of Apple accounts to jump onto their own website and boost their ratings. It could be considered a little dishonest.</p>
+								</div>
+							</div>
+
 						</div>
 					</div>
                 </div>
@@ -209,5 +240,10 @@
     </div>
 
     <script src="dist/js/main.min.js"></script>
+	<script>
+		document.addEventListener( 'DOMContentLoaded', function () {
+			new Splide( '.splide' ).mount();
+		} );
+	</script>
 </body>
 </html>
