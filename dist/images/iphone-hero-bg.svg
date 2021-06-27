@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1050"
+   height="1044"
+   version="1.1"
+   id="svg74"
+   sodipodi:docname="iphone-hero-bg.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata78">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     id="namedview76"
+     showgrid="false"
+     inkscape:zoom="0.8151341"
+     inkscape:cx="525"
+     inkscape:cy="620.14336"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g72" />
+  <defs
+     id="defs66">
+    <linearGradient
+       x1="50%"
+       y1="0%"
+       x2="50%"
+       y2="100%"
+       id="a">
+      <stop
+         stop-color="#4234F8"
+         offset="0%"
+         id="stop45" />
+      <stop
+         stop-color="#4234F8"
+         stop-opacity="0"
+         offset="100%"
+         id="stop47" />
+    </linearGradient>
+    <radialGradient
+       cx="32.541%"
+       cy="46.352%"
+       fx="32.541%"
+       fy="46.352%"
+       r="60.823%"
+       id="c">
+      <stop
+         stop-color="#4234F8"
+         stop-opacity="0"
+         offset="0%"
+         id="stop50" />
+      <stop
+         stop-color="#4234F8"
+         stop-opacity=".64"
+         offset="51.712%"
+         id="stop52" />
+      <stop
+         stop-color="#4234F8"
+         stop-opacity="0"
+         offset="100%"
+         id="stop54" />
+    </radialGradient>
+    <filter
+       id="b">
+      <feTurbulence
+         type="fractalNoise"
+         numOctaves="2"
+         baseFrequency=".3"
+         result="turb"
+         id="feTurbulence57" />
+      <feComposite
+         in="turb"
+         operator="arithmetic"
+         k1=".1"
+         k2=".1"
+         k3=".1"
+         k4=".1"
+         result="result1"
+         in2="turb"
+         id="feComposite59" />
+      <feComposite
+         operator="in"
+         in="result1"
+         in2="SourceGraphic"
+         result="finalFilter"
+         id="feComposite61" />
+      <feBlend
+         mode="multiply"
+         in="finalFilter"
+         in2="SourceGraphic"
+         id="feBlend63" />
+    </filter>
+  </defs>
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="g72">
+    <path
+       d="M199 398c43.352 272.817 501.617-124.479 199-199S308.905 0 199 0 0 89.095 0 199s155.648-73.817 199 199z"
+       transform="translate(305 463)"
+       fill="url(#a)"
+       filter="url(#b)"
+       id="path68"
+       style="fill:#1a1a1a" />
+    <circle
+       cx="172"
+       cy="172"
+       r="172"
+       transform="translate(528 252)"
+       fill="url(#c)"
+       id="circle70"
+       style="fill:#ffd42a" />
+  </g>
+</svg>
